@@ -1,0 +1,485 @@
+/*global code*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-loding{
+    width: 90%;
+    margin: auto;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Arvo", serif;
+}
+
+
+
+
+/*section-iphone*/
+
+.loding-info h3{ 
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 32px;
+}
+.iphone ,.learn , .imac{ 
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: 
+    rgb(159, 163, 167);
+    line-height: 20px;
+}
+.loding-info p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: 
+    rgb(159, 163, 167);
+    line-height: 26px;
+
+}
+
+.loding-img img{
+    width: 70%;
+}
+.loding .container-loding{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+.learn-more{
+    background-color: #F7F8F9;
+}
+.learn-more a{
+    color: 
+    rgb(39, 185, 194);
+    font-family: 
+    "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.learn-more h1{ 
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 60px;
+}
+
+
+
+/*========================*/
+
+
+.Keyboard{
+    background-color: #F05638;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.keyboard-info h3{
+    color: 
+    rgb(255, 251, 251);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.keyboard-info a{
+   
+    color: rgb(255, 200, 10);
+    font-family: 
+    "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+   text-decoration: none;
+    
+}
+
+.keyboard-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*===============================*/
+
+
+.imac-layout{
+    display: flex;
+   
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+.imac h3{
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.imac-left{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.imac-left img{
+    position: relative;
+    
+    top: 10px;
+    right: 350px;
+    width: 70%;
+   
+}
+
+.imac-right p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: 
+    rgb(159, 163, 167);
+    line-height: 26px;
+    margin-bottom: 20px;
+
+}
+
+
+.imac-right a{
+    
+Color:
+rgb(39, 185, 194);
+    font-family: 
+    "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-decoration: none;
+    
+}
+
+
+.imac-right{
+    
+    position: relative;
+    top: 0;
+    right: 300px;
+}
+
+
+/*=========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {  display: grid;
+    grid-template-columns: 1.1fr 0.9fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "iphone iphone iphone learn learn learn"
+      "kebword kebword IMAC\.RETINA IMAC\.RETINA icloud icloud"
+      "Games-ourpasion Games-ourpasion lab lab icloud icloud"
+      "Twitter Twitter POPULAR More-than- More-than- More-than-";
+  }
+  
+  .iphone { grid-area: iphone; }
+  
+  .learn { grid-area: learn; }
+  
+  .kebword { grid-area: kebword; }
+  
+  .IMAC\.RETINA { grid-area: IMAC\.RETINA; }
+  
+  .Games-ourpasion { grid-area: Games-ourpasion; }
+  
+  .lab { grid-area: lab; }
+  
+  .icloud { grid-area: icloud; }
+  
+  .Twitter { grid-area: Twitter; }
+  
+  .POPULAR { grid-area: POPULAR; }
+  
+  .More-than- { grid-area: More-than-; }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+

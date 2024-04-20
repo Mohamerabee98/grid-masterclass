@@ -1,0 +1,581 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-loding {
+    width: 80%;
+    margin: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arvo", serif;
+}
+
+/*=========================================*/
+
+.learn-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8F9;
+    padding-top: 20px;
+
+
+}
+
+
+.learn-more a {
+    color:
+        rgb(39, 185, 194);
+    font-family:
+        "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.learn-more h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 60px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+/*========================*/
+
+
+.loding-info {
+    text-align: start;
+}
+
+
+.loding-info h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 32px;
+    padding: 10px 0px;
+
+}
+
+.iphone,
+.learn,
+.imac {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color:
+        rgb(159, 163, 167);
+    line-height: 20px;
+}
+
+.loding-info p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:
+        rgb(159, 163, 167);
+    line-height: 36px;
+
+
+
+}
+
+.loding-img img {
+    width: 100%;
+    padding-top: 25px;
+}
+
+
+.loding .container-loding {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+
+/*========================*/
+
+
+
+
+.Keyboard {
+    background-color: #F05638;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.keyboard img {
+
+    margin-bottom: 10px;
+
+}
+
+.keyboard-img img {
+    width: 100%;
+}
+
+.keyboard-info h3 {
+    color:
+        rgb(255, 251, 251);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.keyboard-info a {
+
+    color: rgb(255, 200, 10);
+    font-family:
+        "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+
+.keyboard-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+
+
+/*===============================*/
+
+.games-info img {
+    width: 70%;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.games-info h3 {
+    Color: rgb(51, 51, 51);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.games-info a {
+
+    Color:
+        rgb(39, 185, 194);
+    font-family:
+        "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.games-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*===============================*/
+.imac-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.container-imac{
+    text-align: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imac-info-left img{
+    width: 200%;
+    position: relative;
+    top: 0;
+    right: 180px;
+}
+
+
+
+.imac-info-left{
+    text-align: start;
+}
+
+
+.imac-info-left h3{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+
+
+.imac-info-right{
+    margin-left: 10px;
+    text-align: start;
+}
+
+.imac-info-right p{
+    font-size: 14px;
+    line-height: 26px;
+    color: rgb(159, 163, 167);
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 10px;
+
+}
+
+.imac-info-right a{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 26px;
+    color:rgb(39, 185, 194) ;
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================*/
+.Twitter {
+    background-color: #38D5F4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-info {
+
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #35CFED;
+}
+
+.twitter-info h3 {
+    width: 200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+
+/*===========================*/
+
+.MuchBetter {
+    position: relative;
+    padding-top: 30px;
+    background-color: #93B6B7;
+    color: #fff;
+    text-align: center;
+    background-image: url(./images/UX.png);
+    background-position: 50% 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.MuchBetter img {
+    position: relative;
+    left: -12%;
+    width: 90%;
+}
+
+
+.MuchBetter h3 {
+    margin: 40px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    width: 300px;
+
+}
+
+.lab-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Choice {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #fa684f;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/*========================================*/
+.icloud {
+    background-color: #8F76BC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 373px;
+    height: 373px;
+    border-radius: 50%;
+    background-color: #8166b0;
+    margin-top: 40px;
+}
+
+.address {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    background-color: #8B72B6;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.popular img {
+    width: 80%;
+    padding: 20px;
+}
+
+.meet {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+
+.icloud-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.icloud-info h3 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.icloud-info p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    width: 270px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icloud-info a {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    background-color: #FFC80A;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 150px;
+    padding: 10px 0px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    margin-top: 30px;
+}
+
+
+/*==========================================*/
+
+.Much-MuchBetter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.Much-MuchBetter p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    background-color: #7BC424;
+
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Much-MuchBetter h3 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    Color: rgb(51, 51, 51);
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/*================================*/
+
+.vision {
+    background-color: #2C2C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.vision img {
+    width: 80%;
+    position: relative;
+    left: -15%;
+}
+
+.vision p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Arvo, sans-serif;
+    line-height: 40px;
+    margin-bottom: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+/*== css grid layout==*/
+
+.container {
+
+    grid-template-areas:
+        "loding loding learn-more learn-more"
+        "Keyboard imac-layout imac-layout icloud"
+        "games MuchBetter MuchBetter icloud"
+        "Twitter Much-MuchBetter vision vision";
+}
+
+.learn-more {
+    grid-area: learn-more;
+}
+
+.loding {
+    grid-area: loding;
+}
+
+.Keyboard {
+    grid-area: Keyboard;
+}
+
+.games {
+    grid-area: games;
+}
+
+.Twitter {
+    grid-area: Twitter;
+}
+
+.MuchBetter {
+    grid-area: MuchBetter;
+}
+
+.imac-layout {
+    grid-area: imac-layout;
+}
+
+.icloud {
+    grid-area: icloud;
+}
+
+.Much-MuchBetter {
+    grid-area: Much-MuchBetter;
+}
+
+.vision {
+    grid-area: vision;
+}
+
+

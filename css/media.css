@@ -1,0 +1,101 @@
+/* md */
+@media (min-width: 768px) {
+
+
+    .learn-more h1{
+        width: 500px;
+    }
+    /*=========================================*/
+    .loding .container-loding {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .loding-info p {
+        font-size: 14px;
+    }
+
+    .loding-img img {
+        width: 70%;
+        position: relative;
+        left: 100px;
+
+    }
+
+    .loding-info h3 {
+        width: 200px;
+        text-align: start;
+    }
+        /*=========================================*/
+
+       
+        /*=========================================*/
+    .vision {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
+    .vision img {
+        width: 40%;
+    }
+    
+    .vision p {
+        width: 300px;
+        line-height: 40px;
+    }
+    .imac-info-left img{
+        width: 250%;
+        position: relative;
+        top: 60px;
+        right: 400px;
+    }
+    
+       /*=========================================*/
+
+    
+
+
+   
+}
+
+
+
+
+
+    
+
+
+
+
+
+/*=========================================*/
+
+/* lg */
+@media (min-width: 1024px) {
+    .MuchBetter img {
+        position: relative;
+        left: -12%;
+        top: 50px;
+        width: 90%;
+    }
+    
+    
+   
+    .container {
+         display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows:  1fr 1fr 1fr 300px; 
+        grid-template-areas:
+            "loding loding learn-more learn-more"
+            "Keyboard imac-layout imac-layout icloud"
+            "games MuchBetter MuchBetter icloud"
+            "Twitter Much-MuchBetter vision vision"; 
+    }
+}
